@@ -15,7 +15,7 @@ class sanoCovid extends StatefulWidget {
 bool loading = false;
 
 List lstCountry;
-//for taking data from
+//for taking dataa from api
   Future<String> getWorldData() async {
     var response =
         await http.get(Uri.parse("https://brp.com.np/covid/country.php"));
